@@ -20,7 +20,7 @@ page = st.sidebar.selectbox("Select a Page", ["Home",
                                              "Make Predictions!"])
 
 # Load dataset
-df = pd.read_csv('data/cleaned_airline_passenger_satisfaction.csv')
+df = pd.read_csv('cleaned_airline_passenger_satisfaction.csv')
 #remove customer type for more honest modeling
 #df.drop(columns=['customer_type'], inplace=True)
 
